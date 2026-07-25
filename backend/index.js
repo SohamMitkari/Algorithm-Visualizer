@@ -14,7 +14,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/saved-arrays", savedArraysRoutes);
 
 app.get("/", (req, res) => {
-  res.json({ status: "DSA Visualizer API running (test)" });
+  res.json({ status: "DSA Visualizer API running" });
 });
 
 const PORT = process.env.PORT || 4000;
