@@ -175,7 +175,7 @@ function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <h1 className="app__wordmark">Algorithm Visualizer (test)</h1>
+        <h1 className="app__wordmark">Algorithm Visualizer</h1>
         {user ? (
           <div className="authbar">
             <span>{user.email}</span>
